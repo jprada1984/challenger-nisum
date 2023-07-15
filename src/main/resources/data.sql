@@ -1,0 +1,7 @@
+insert into users(id, created_date, modified_date, email, is_active, last_login,name, password, token)
+   values ('d196c1ac-e03d-4ffe-8bf6-9e98a0e5c41a', '2023-07-14 16:47:38.421083', '2023-07-14 16:47:38.511104', 'jprada1984@dominio.cl', true, '2023-07-14 16:47:38.421083', 'Jimmy Prada', '12345678', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJKaW1teSIsImlzcyI6Im1hc29uLm1ldGFtdWcubmV0IiwiZXhwIjoxNjk3MTQ3MjU4NDY1LCJpYXQiOjE2ODkzNTMyNTgsImp0aSI6IjEzOTVkZjY2LWRhMDAtNGU1NS1iOWE0LTg3NGEwMTM5NmUyMiJ9.-avBewmgAdX6YlQSjyJ50Sgm6M_3-nR6wdg8d6OEohw');
+insert into users(id, created_date, modified_date, email, is_active, last_login,name, password, token)
+   values ('37c7dcca-6260-4190-8792-7f1e41d756cb', '2023-07-14T17:26:38.028265', '2023-07-14T17:26:38.028265', 'anitaperez@dominio.cl', true, '2023-07-14T17:26:38.028265', 'Anita Perez', '13543458', 'eyJzdWIiOiJBbml0YSIsImlzcyI6Im1hc29uLm1ldGFtdWcubmV0IiwiZXhwIjoxNjk3MTQ5NTk4MDg2LCJpYXQiOjE2ODkzNTU1OTgsImp0aSI6IjQ3ODYzOTczLWI4MmYtNDVhNy1iMjU1LTNlYjRmNTExNDA3ZCJ9.3CjItdPVMS5duF3LMvbeZGTHo2vff6froxB06I-B0GE');
+
+ insert into phones ( id, city_code, country_code, number, user_id)   values (1,'1' ,'51', '927199508', 'd196c1ac-e03d-4ffe-8bf6-9e98a0e5c41a');
+insert into phones ( id, city_code, country_code, number, user_id)    values (2,'1', '57', '927199509', '37c7dcca-6260-4190-8792-7f1e41d756cb');
